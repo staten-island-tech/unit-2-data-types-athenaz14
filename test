@@ -76,6 +76,4 @@ else:
         print("Odd")
 
 def service(bad,okay,good,great):
-        S
-
-    
+        
