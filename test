@@ -49,7 +49,7 @@ z = y[0]
 print(y)
 print(z)
  """
-
+""" 
 day_of_week = input("what day is it? ")
 if day_of_week == "Friday":
     print("correct")
@@ -65,6 +65,17 @@ if temp > 68:
 elif temp == 68:
     print('perfect')
 else:
-    print('cold')
+    print('cold') """
 
+"""  """
 
+number =int(input("Enter a number"))
+if int(number) % 2 == 0:
+        print("Even")
+else:
+        print("Odd")
+
+def service(bad,okay,good,great):
+        S
+
+    
