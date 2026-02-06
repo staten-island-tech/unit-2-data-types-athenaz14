@@ -69,11 +69,28 @@ else:
 
 """  """
 
-number =int(input("Enter a number"))
+""" number =int(input("Enter a number"))
 if int(number) % 2 == 0:
         print("Even")
 else:
         print("Odd")
+ """
+""" bill = int(input("Enter value"))
+service = input("How was the service?")
+if service == "bad":
+        print (int(bill * 1))
+elif service == "okay":
+        print (int(bill * 1.15))
+elif service == "good":
+        print (int(bill * 1.20))
+else:
+        print (int(bill * 1.25)) """
 
-def service(bad,okay,good,great):
-        
+number = int(input("Enter a number"))
+
+
+sentence =input(Type a sentence)
+
+
+
+
