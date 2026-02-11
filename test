@@ -91,14 +91,19 @@ if int(number) > 0:
     for i in range(1, number + 1):
         if number % i == 0:
             print (i)
- """""" sentence =input(Type a sentence)
  """
 
-number = int(input("Enter a number"))
+""" number = int(input("Enter a number"))
 number_2 = int(input("Enter another number"))
 if int(number and number_2) > 0:
     for i in range(1, number and number_2+ 1):
         if number and number_2% i == 0:
             print (i)
+ """
+sentence =input("Type a sentence")
+
+for i in sentence:
+    print(i)
+
 
 
