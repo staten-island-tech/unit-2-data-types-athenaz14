@@ -100,10 +100,34 @@ if int(number and number_2) > 0:
         if number and number_2% i == 0:
             print (i)
  """
-sentence =input("Type a sentence")
+""" sentence =input("Type a sentence")
+y= sentence.split( )
 
 for i in sentence:
     print(i)
+ """
+""" count = 1
 
+while count <= 5:
+    print("This is loop number", count)
+    count = count + 1
+
+number = 1
+while number > 0:
+    print("This will never stop!")
+ """
+""" order = ""
+
+while order != "done":
+    order = input("What would you like to order? (type 'done' to finish): ")
+
+print("Thanks for your order!")
+ """
+color = ""
+
+while color != "stop":
+    color = input("What is your favorite color? (type 'stop' to stop): ")
+
+print("That's cool!")
 
 
