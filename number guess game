@@ -2,9 +2,12 @@ import random
 x= random.randint(1,10)
 x = [1,2,3,4,5,6,7,8,9,10]
 number =int(input("Guess the number"))
-while number == "x":
-    number =int(input("Guess the number"))
+while number != "x":
+    print ("You guessed incorrectly!")
+number =int(input("Guess the number"))
+ number > "x":
+        print ("Your number is higher")
+    if number < "x":
+        print ("Your number is lower")
 else:
-    number > x
-    print ("Your number is higher")
-
+    print ("You guessed correctly!")
