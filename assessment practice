@@ -1,0 +1,19 @@
+""" """ #DOES SOMETHING AND OUTPUT A NUMBER """
+""" def occupied(y,t):
+    C= "C"
+    O= "."
+    occupied("C.C..","C..CC")
+    print(y[1])
+    occupied (3, "CCC","..C")
+    for i in ran """
+
+def occupied(x,y,t):
+    found = 0
+    C= "C"
+    O= "."
+    for i in range(x):
+        if (y[i] =="C" and t[i] =="C"):
+            found += 1
+        print (found)
+occupied (3, "CCC","CCC")
+
