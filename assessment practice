@@ -7,7 +7,7 @@
     occupied (3, "CCC","..C")
     for i in ran """
 
-def occupied(x,y,t):
+""" def occupied(x,y,t):
     found = 0
     C= "C"
     O= "."
@@ -15,5 +15,14 @@ def occupied(x,y,t):
         if (y[i] =="C" and t[i] =="C"):
             found += 1
         print (found)
-occupied (3, "CCC","CCC")
+occupied (3, "C.C","CCC")
 
+ """
+def language(x,e,f):
+    T ="T" or "t"
+    S ="S" or "s"
+    Text =str(input("Enter a text to tell if it's English or French."))
+    count_of_t = T
+
+    print("This text is probably English")
+    print("This text is probably French")
