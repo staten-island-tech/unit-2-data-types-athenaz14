@@ -19,10 +19,13 @@ occupied (3, "C.C","CCC")
 
  """
 def language(x,e,f):
-    T ="T" or "t"
-    S ="S" or "s"
-    Text =str(input("Enter a text to tell if it's English or French."))
-    count_of_t = T
+    T ="T"
+    S ="S"
 
-    print("This text is probably English")
-    print("This text is probably French")
+    for letter in range(x):
+        if (letter.lower()=="S"):
+            S+=1
+            print(S)
+        elif letter == "t" or letter == "T":
+            T=+1
+            print(T)
