@@ -18,14 +18,31 @@
 occupied (3, "C.C","CCC")
 
  """
-def language(x,e,f):
-    T ="T"
-    S ="S"
-
-    for letter in range(x):
-        if (letter.lower()=="S"):
+""" 
+def languages(sentence):
+    T =0
+    S =0
+    for letter in sentence:
+        if letter == "s" or letter == "S":
             S+=1
-            print(S)
         elif letter == "t" or letter == "T":
-            T=+1
-            print(T)
+            T+=1
+        if S > T:
+                print("French")
+        else:
+                print("English")
+languages("Lorsque j'avais six ans j'ai vu, une fois,une magnifique image, dans un livre")
+ """
+def HONI(h,o,n,i):
+    search=0
+    for letter in search:
+        if letter == "h" or letter == "H":
+            h+=1
+        elif letter == "o" or letter == "O":
+            o+=1
+        elif letter == "n" or letter == "N":
+            n+=1
+        elif letter == "i" or letter == "i":
+            i+=1
+    print(h,o,n,i)
+HONI("HHHHOOOONNNNIIII")
