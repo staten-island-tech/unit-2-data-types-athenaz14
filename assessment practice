@@ -33,7 +33,7 @@ def languages(sentence):
                 print("English")
 languages("Lorsque j'avais six ans j'ai vu, une fois,une magnifique image, dans un livre")
  """
-def HONI(search):
+""" def HONI(search):
     h = 0
     o = 0
     n = 0
@@ -48,4 +48,33 @@ def HONI(search):
         elif letter == "i" or letter == "I":
             i+=1
     print(h,o,n,i)
-HONI("honi")
+HONI("honi") """
+def HONI(word):
+    count = 0
+    state = 0
+    for char in word:
+        if state == 0 and char.upper() == "H":
+            count = 1
+        elif state == 1 and char.upper() == "O":
+            count == 2 
+        elif state == 2 and char.upper() == "N":
+            count == 3
+        elif state == 3 and char.upper() == "I":
+            count+=1
+            state = 0
+    print(count)
+HONI("HHHHHHHONNNNNNNNNNNNIIIIIII")
+
+""" 
+def magnus(word):
+    HONI =["H","O","N","I"]
+    count = 0
+    state = 0
+    for char in word:
+        if HONI[state] == char.upper():
+            state +=1
+            if state >=4:
+                state = 0
+                count +=1
+    print(count)
+magnus("honihoniiii") """
