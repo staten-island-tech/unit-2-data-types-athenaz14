@@ -54,16 +54,16 @@ def HONI(word):
     state = 0
     for char in word:
         if state == 0 and char.upper() == "H":
-            count = 1
+            state = 1
         elif state == 1 and char.upper() == "O":
-            count == 2 
+            state = 2 
         elif state == 2 and char.upper() == "N":
-            count == 3
+            state = 3
         elif state == 3 and char.upper() == "I":
             count+=1
             state = 0
     print(count)
-HONI("HHHHHHHONNNNNNNNNNNNIIIIIII")
+HONI("PROHODNIHODNIK")
 
 """ 
 def magnus(word):
