@@ -132,3 +132,9 @@ print("That's cool!")
 
 
  """
+sentence =input("how many words in a sentence")
+words = sentence.split()
+wordcount = 0
+for word in words:
+        wordcount +=1
+        print(f"The sentence has {wordcount} words")

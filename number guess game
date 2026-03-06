@@ -19,29 +19,29 @@ guess_history= (list(str(number)))
 import random
 x=random.randint(1,10)
 number =int(input("Guess the number"))
-guess_history =
-while number == x:
+guess_history = []
+while number == int(x):
     print("You guess correctly!")
+    print(f"{guess_history}")
     break 
 else:
     while number > int(x):
         print ("Your number is higher")
-        number =int(input("Guess the number"))
-        guess_history = print(number)
+        number = int(input("Guess the number"))
+        print(f"{guess_history}")
 
-        if number == x:
+        if number == int(x):
             print("You guess correctly!")
+            print(f"{guess_history}")
+
     else:
         print ("Your number is lower")
-        number =int(input("Guess the number"))
-        guess_history = print(number)
+        number = int(input("Guess the number"))
+        print(f"{guess_history}")
 
-        if number == x:
+        if number == int(x):
             print("You guess correctly!")
-
-            for i in range:
-                x+=1
-                print(i)
+        print(f"{guess_history}")
 
 
 """     else:
