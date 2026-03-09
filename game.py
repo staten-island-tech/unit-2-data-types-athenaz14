@@ -43,11 +43,13 @@ for i in values:
 print(values[0])
 print(values[6])
 
+""" 
 x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
+print(z) 
+"""
  """
 """ 
 day_of_week = input("what day is it? ")
@@ -132,3 +134,9 @@ print("That's cool!")
 
 
  """
+""" sentence =input("how many words in a sentence")
+words = sentence.split()
+wordcount = 0
+for word in words:
+        wordcount +=1
+        print(f"The sentence has {wordcount} words") """
