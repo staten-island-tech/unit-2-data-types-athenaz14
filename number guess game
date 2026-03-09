@@ -19,7 +19,7 @@ guess_history= (list(str(number)))
 import random
 x=random.randint(1,10)
 number =int(input("Guess the number"))
-guess_history =[number]
+guess_history =[]
 while number == x:
     print("You guess correctly!")
     print(f"{guess_history}")
