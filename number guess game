@@ -22,26 +22,32 @@ number =int(input("Guess the number"))
 guess_history = []
 while number == int(x):
     print("You guess correctly!")
+    guess_history.append(number)
     print(f"{guess_history}")
     break 
 else:
     while number > int(x):
         print ("Your number is higher")
         number = int(input("Guess the number"))
+        guess_history.append(number)
         print(f"{guess_history}")
 
         if number == int(x):
             print("You guess correctly!")
-            print(f"{guess_history}")
+            guess_history.append(number)
+            
 
     else:
         print ("Your number is lower")
         number = int(input("Guess the number"))
+        guess_history.append(number)
         print(f"{guess_history}")
+
 
         if number == int(x):
             print("You guess correctly!")
-        print(f"{guess_history}")
+        guess_history.append(number)
+
 
 
 """     else:
