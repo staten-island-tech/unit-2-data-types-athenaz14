@@ -78,3 +78,9 @@ def magnus(word):
                 count +=1
     print(count)
 magnus("honihoniiii") """
+def gamble(machine):
+    quarter = 0
+    turns = 0
+    while quarter > 0:
+        if machine_1 %35 == 0
+            
