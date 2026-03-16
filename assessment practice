@@ -78,9 +78,12 @@ def magnus(word):
                 count +=1
     print(count)
 magnus("honihoniiii") """
-def gamble(machine):
-    quarter = 0
-    turns = 0
-    while quarter > 0:
-        if machine_1 %35 == 0
-            
+def gamble(quarter,machine_1,machine_2,machine_3,turns)
+m1=machine_1
+while quarters >= 1:
+    quarters=quarters-1
+    if machine_1 == 0:
+        turns=turns+1
+    if turns == 35:
+        turns = 0
+        quarter = quarter + 30
