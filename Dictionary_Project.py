@@ -1,4 +1,4 @@
-best_buy_items = {
+items = {
     "name": "Samsung 55\" 4K UHD TV",
     "price": 429.99,
     "department": "Televisions",
@@ -10,5 +10,3 @@ best_buy_items = {
     
 for index, item in enumerate(best_buy_items):
     print(index, ":", item["name"])
-
-print(item[0]["name"])
